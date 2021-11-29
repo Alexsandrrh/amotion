@@ -3,8 +3,9 @@
     "target": "ES3",
     "module": "ESNext",
     "declaration": true,
+    "declarationDir": "./dist",
     "preserveSymlinks": true,
-    "outDir": "dist",
+    "outDir": "./dist",
     "isolatedModules": true,
     "esModuleInterop": true,
     "downlevelIteration": true,
@@ -17,5 +18,8 @@
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
     "lib": ["DOM"]
-  }
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
