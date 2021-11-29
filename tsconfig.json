@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES3",
+    "module": "ESNext",
+    "declaration": true,
+    "preserveSymlinks": true,
+    "outDir": "dist",
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "noImplicitAny": false,
+    "noUnusedParameters": true,
+    "preserveConstEnums": true,
+    "skipLibCheck": true,
+    "moduleResolution": "Node",
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "lib": ["DOM"]
+  }
+}
